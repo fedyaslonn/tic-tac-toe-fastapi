@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tic-tac-toe-game"
+version = "0.1.0"
+description = ""
+authors = ["fed0r <wisp47344@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.112.2"
+websockets = "^13.0.1"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
